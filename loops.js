@@ -3,8 +3,8 @@ function forLoop(array){
   //   if (i = 0){'I am 1 strange loop.';
   // } else {
   //   `I am ${i} strange loops.`;}
-    `I am ${i} strange loop${i === 0 ? '' : 's'}.`
-  };
+    console.log(`I am ${i} strange loop${i === 0 ? '' : 's'}.`);
+  }
   return array
 }
 
